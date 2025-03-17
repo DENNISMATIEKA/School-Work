@@ -1,7 +1,7 @@
 import os
 
 try:
-    # Step 1: Open the file and read its contents
+    # Open the file and read its contents
     with open("student_scores.txt", "r") as file:
         lines = file.readlines()
 
